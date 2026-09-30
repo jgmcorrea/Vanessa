@@ -4,7 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Termos, responsabilidades e privacidade — Vanessa Bollmann</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Termos, responsabilidades e privacidade — Vanessa Bollmann">
+<meta property="og:description" content="Como funciona a contratação, o que é feito com os seus dados de nascimento, a guarda dos materiais entregues e as responsabilidades de cada parte.">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:image" content="https://vanessabollmann.com.br/og/og-site.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://vanessabollmann.com.br/termos.html">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="description" content="Como funciona a contratação, o que é feito com os seus dados de nascimento, a guarda dos materiais entregues e as responsabilidades de cada parte.">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="shortcut icon" href="img/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Karla:wght@300;400;500&family=Space+Mono:wght@400&display=swap" rel="stylesheet">
@@ -49,20 +62,51 @@ a:hover{border-bottom-color:var(--ouro)}
 .rodape{border-top:1px solid var(--hair);padding:30px 0 42px;text-align:center}
 .rodape p{font-size:13.5px}
 .legal{font-size:11.5px;line-height:1.7;color:var(--marrom-suave);margin-top:12px}
+
+.wrap>h1,.wrap>h2,.wrap>h3,.wrap>.eyebrow,.wrap>.rule,.hero .wrap h1,.hero .wrap .eyebrow,.hero .wrap .rule,.ferramenta-titulo,.ferramenta-sub,.mandala-sub,.ebook-rotulo{text-align:center}
+.wrap>.eyebrow,.hero .wrap .eyebrow{display:block}
+.rule{justify-content:center}
+.capa-real img{transform:none}
+
+.wa-flutua{position:fixed;right:16px;bottom:16px;z-index:60;display:flex;align-items:center;gap:9px;background:var(--tinta);color:var(--papel);text-decoration:none;padding:13px 18px;border-radius:999px;box-shadow:0 10px 30px -8px rgba(42,33,26,.45);font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase}
+.wa-flutua:hover{background:#3a2e24}
+.wa-flutua svg{width:17px;height:17px;fill:currentColor;flex:0 0 auto}
+@media(max-width:600px){.wa-flutua{right:12px;bottom:12px;padding:12px 15px;font-size:9px}}
+@media print{.wa-flutua{display:none}}
+.eyebrow,.link-topo,.sob,.meta,.fase,.aviso-guardar{color:#8A6B2F}
+.mandala-gratis .eyebrow,.hero .eyebrow{color:#8A6B2F}
+
+.wa-flutua{background:var(--ouro);color:#2A211A;box-shadow:0 10px 30px -8px rgba(176,141,74,.5)}
+.wa-flutua:hover{background:#c29a52;color:#2A211A}
+.ebook .corpo h3,.caixa h3,.oferta .caixa h3{text-transform:uppercase;letter-spacing:.14em;font-size:17px;color:#6E5749;text-align:center}
+.ebook .corpo{text-align:center}
+.ebook .corpo p{margin-left:auto;margin-right:auto}
+
+.wa-flutua{width:56px;height:56px;padding:0;border-radius:50%;background:#FFFFFF;border:1.5px solid #C9A24C;color:#C9A24C;justify-content:center;gap:0;font-size:0;letter-spacing:0;box-shadow:0 8px 24px -8px rgba(42,33,26,.28)}
+.wa-flutua:hover{background:#FFFDF9;border-color:#D4B057;color:#D4B057}
+.wa-flutua svg{width:26px;height:26px}
+@media(max-width:600px){.wa-flutua{width:52px;height:52px;padding:0}.wa-flutua svg{width:24px;height:24px}}
+
+.hero .rule,.wrap>.rule,.travessia .rule,.folhear .rule{margin-left:auto;margin-right:auto}
+.hero .eyebrow,.hero .rule,.hero h1{text-align:center}
 </style>
-<!-- Ícones -->
-    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="imagens/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="imagens/android-chrome-512x512.png">
-    <link rel="shortcut icon" href="imagens/favicon.ico">
-  </head>
+
+<!-- Meta Pixel: troque SEU_PIXEL_ID pelo número do pixel no Gerenciador de Anúncios -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','SEU_PIXEL_ID');fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=SEU_PIXEL_ID&ev=PageView&noscript=1"></noscript>
+</head>
 <body>
 
 <div class="barra">
   <div class="wrap">
-    <a class="marca" href="https://claude.ai/artifact/6syVLRvw4EoBHbb6xzKGmR">Vanessa Bollmann</a>
+    <a class="marca" href="index.html">Vanessa Bollmann</a>
     <a class="marca" href="https://wa.me/5547991188982">WhatsApp</a>
   </div>
 </div>
@@ -72,7 +116,7 @@ a:hover{border-bottom-color:var(--ouro)}
     <span class="eyebrow">Informações e responsabilidades</span>
     <h1>Termos de uso, entrega<br>e privacidade</h1>
     <p class="sub">Esta página explica o que você contrata, o que é feito com os dados que você me envia, como o material é entregue e o que cabe a cada uma de nós. Vale para os atendimentos, as leituras energéticas, os diagnósticos de empresa e os ebooks.</p>
-    <p class="data">Última atualização: 18 de setembro de 2026</p>
+    <p class="data">Última atualização: 24 de setembro de 2026</p>
   </div>
 </header>
 
@@ -82,7 +126,7 @@ a:hover{border-bottom-color:var(--ouro)}
 <section>
   <span class="num">01</span>
   <h2>Quem atende você</h2>
-  <p>Vanessa Bollmann · Astrologia Energética. Atendimento online, a partir de Blumenau/SC. Dados cadastrais completos e endereço para correspondência são fornecidos a quem solicitar, pelo e-mail ou WhatsApp abaixo.</p>
+  <p>Vanessa Bollmann · Astrologia Energética. Atendimento online e presencial, em Blumenau/SC. Dados cadastrais completos e endereço para correspondência são fornecidos a quem solicitar, pelo e-mail ou WhatsApp abaixo.</p>
   <p>Contato: <a href="https://wa.me/5547991188982">WhatsApp (47) 99118-8982</a> · e-mail <a href="mailto:vanessabollmann1982@gmail.com">vanessabollmann1982@gmail.com</a> · <a href="https://instagram.com/vanessabollmann">@vanessabollmann</a>. Respondo pessoalmente, em horário comercial, de segunda a sexta.</p>
 </section>
 
@@ -92,7 +136,7 @@ a:hover{border-bottom-color:var(--ouro)}
   <p>Todo o meu trabalho é uma <strong>prática simbólica de autoconhecimento e bem-estar</strong>, de fundo espiritual. Ele não é serviço de saúde e não pretende ser.</p>
   <ul>
     <li>Não constitui diagnóstico, tratamento ou aconselhamento médico, psicológico ou psiquiátrico, e não substitui acompanhamento profissional de saúde</li>
-    <li>Não substitui contador, advogado, consultor financeiro ou qualquer profissional habilitado — inclusive no diagnóstico energético de empresas</li>
+    <li>Não substitui contador, advogado, consultor financeiro ou qualquer profissional habilitado, inclusive no diagnóstico energético de empresas</li>
     <li>Não garante resultados, faturamento, cura, mudança de comportamento ou acontecimentos futuros</li>
     <li>As decisões que você tomar a partir da leitura são suas, e a responsabilidade por elas também</li>
   </ul>
@@ -105,9 +149,10 @@ a:hover{border-bottom-color:var(--ouro)}
   <span class="num">03</span>
   <h2>Como funciona a contratação</h2>
   <ul>
-    <li>O pedido é feito pelo WhatsApp e o pagamento é por Pix, à vista, antes da produção do material</li>
+    <li>Leituras, atendimentos e demais trabalhos: o pedido é feito diretamente comigo, pelo WhatsApp, e o pagamento é por Pix, à vista, antes da produção do material</li>
+    <li>Ebooks: a compra é feita pela Eduzz, e o pagamento, a liberação do arquivo e o reembolso seguem as regras da plataforma</li>
     <li>A produção começa depois da confirmação do pagamento e do recebimento de todos os dados necessários</li>
-    <li>Os prazos contam a partir daí: leitura energética das 12 casas em até 24 horas; diagnóstico da empresa em até 48 horas; mapa natal e revolução solar em até 15 dias nas versões relatório e relatório com áudios — quando o pacote inclui chamada de vídeo, a data do encontro é combinada de acordo com a minha agenda, e o relatório chega antes da chamada; mapa astral infantil de 60 a 90 dias, mais o prazo dos Correios na versão impressa; ebooks são enviados logo após a confirmação</li>
+    <li>Os prazos contam a partir daí: leitura energética das 12 casas em até 24 horas; diagnóstico da empresa em até 48 horas; mapa natal e revolução solar em até 30 dias nas versões relatório e relatório com áudios; quando o pacote inclui chamada de vídeo, a data do encontro é combinada de acordo com a minha agenda, e o relatório chega antes da chamada; mapa natal infantil de 60 a 90 dias, mais o prazo dos Correios na versão impressa; ebooks têm o acesso liberado pela Eduzz logo após a confirmação do pagamento</li>
     <li>Se eu precisar de mais tempo por algum motivo, eu aviso antes do prazo vencer</li>
   </ul>
 </section>
@@ -115,8 +160,8 @@ a:hover{border-bottom-color:var(--ouro)}
 <section>
   <span class="num">04</span>
   <h2>Os dados que você me envia e para que eles servem</h2>
-  <p>Para montar qualquer leitura eu preciso de <strong>data, hora e cidade de nascimento</strong>. Esses três dados são usados exclusivamente para gerar o gráfico da mandala astrológica — o desenho do céu naquele instante — e para escrever a leitura a partir dele.</p>
-  <p>No diagnóstico de empresa, uso também o <strong>CNPJ e a data, hora e cidade de abertura</strong>, pela mesma razão: o gráfico do campo da empresa.</p>
+  <p>Para montar qualquer leitura eu preciso de <strong>data, hora e cidade de nascimento</strong>. Esses três dados são usados exclusivamente para gerar o gráfico da mandala astrológica, o desenho do céu naquele instante, e para escrever a leitura a partir dele. A hora é indispensável: sem ela, a leitura não fica correta nem aprofundada, e nos atendimentos, online ou presencial, o horário é obrigatório. Sem a hora, é possível fazer apenas um relatório simplificado, sem a mesma precisão.</p>
+  <p>No diagnóstico de empresa, uso também o <strong>CNPJ e a data e a cidade de abertura, que eu busco no cartão CNPJ (a hora, só se você souber)</strong>, pela mesma razão: o gráfico do campo da empresa.</p>
   <p>Se for mais prático, você pode me enviar pelo WhatsApp uma <strong>foto da certidão ou do documento</strong> onde esses dados constam. A foto serve só para eu conferir data, hora e local, e é apagada da conversa assim que eu anoto o que preciso.</p>
   <ul>
     <li>Não vendo, não compartilho e não cedo os seus dados a terceiros</li>
@@ -144,9 +189,9 @@ a:hover{border-bottom-color:var(--ouro)}
   <span class="num">06</span>
   <h2>Direito de arrependimento e reembolso</h2>
   <p>Pela lei brasileira você tem <strong>7 dias corridos</strong>, contados do recebimento, para desistir de uma compra feita fora de loja física, como é o caso aqui. É o artigo 49 do Código de Defesa do Consumidor.</p>
-  <p><strong>Ebooks:</strong> devolução integral em até 7 dias da compra, sem precisar justificar. É só me avisar pelo WhatsApp ou e-mail e eu faço o Pix de volta.</p>
+  <p><strong>Ebooks:</strong> devolução integral em até 7 dias da compra, sem precisar justificar. O pedido de reembolso é feito pela própria Eduzz, conforme as regras da plataforma.</p>
   <p><strong>Leituras personalizadas</strong> (mapa natal, revolução solar, leitura das 12 casas, mapa infantil): se eu ainda não tiver começado a produção, devolvo o valor integral. Depois de produzido e enviado, o material não é reembolsável, porque foi feito sob medida para uma pessoa só e não pode ser reaproveitado. É o que a lei prevê para produto personalizado.</p>
-  <p>No diagnóstico energético da empresa vale a garantia já anunciada na página: se depois de ler você sentir que o diagnóstico não te encontrou, me diga e eu devolvo o valor integral.</p>
+  <p><strong>Diagnóstico energético da empresa:</strong> segue a mesma regra das leituras personalizadas. Depois de entregue, você tem sete dias de acompanhamento pelo WhatsApp para tirar dúvidas sobre o relatório, sem custo adicional.</p>
 </section>
 
 <section>
@@ -162,7 +207,7 @@ a:hover{border-bottom-color:var(--ouro)}
 
 <section>
   <span class="num">08</span>
-  <h2>Mapa astral infantil</h2>
+  <h2>Mapa natal infantil</h2>
   <p>O mapa infantil só pode ser contratado por <strong>pai, mãe ou responsável legal</strong> da criança, que é quem me envia os dados de nascimento e autoriza o uso deles para essa finalidade. A leitura é entregue ao responsável, e vale aqui tudo o que está escrito acima sobre natureza simbólica e guarda do material.</p>
 </section>
 
@@ -185,5 +230,18 @@ a:hover{border-bottom-color:var(--ouro)}
   </div>
 </footer>
 
+<a class="wa-flutua" href="https://wa.me/5547991188982?text=Oi%20Vanessa!%20Vim%20pelo%20site." target="_blank" rel="noopener" aria-label="Falar comigo no WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2m5.8 14.02c-.24.68-1.4 1.3-1.95 1.34-.5.04-.98.21-3.3-.69-2.78-1.09-4.54-3.94-4.68-4.12-.13-.18-1.11-1.48-1.11-2.82 0-1.34.7-2 .95-2.27.24-.27.53-.34.71-.34h.51c.16 0 .38-.06.6.46.23.55.77 1.89.84 2.03.07.14.11.3.02.48-.09.18-.13.29-.27.45-.13.16-.28.35-.4.47-.13.13-.27.28-.12.54.15.27.67 1.1 1.43 1.78.98.87 1.8 1.14 2.07 1.27.27.13.42.11.58-.07.16-.18.67-.78.85-1.05.18-.27.35-.22.6-.13.24.09 1.55.73 1.82.86.27.13.44.2.51.31.07.11.07.64-.17 1.32"/></svg>
+  WhatsApp
+</a>
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest('a,button'); if(!a||typeof fbq!=='function')return;
+  var t=(a.textContent||'').toLowerCase(), href=a.getAttribute('href')||'';
+  if(href.indexOf('wa.me')>-1){fbq('track','Contact');}
+  if(t.indexOf('quero o ebook')>-1||href.indexOf('eduzz')>-1){fbq('track','InitiateCheckout');}
+  if(t.indexOf('abrir minha mandala')>-1||t.indexOf('ver a minha fase')>-1||t.indexOf('abrir a minha mensagem')>-1){fbq('trackCustom','AbriuMandala');}
+});
+</script>
 </body>
 </html>
