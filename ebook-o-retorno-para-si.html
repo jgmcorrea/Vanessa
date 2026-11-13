@@ -255,7 +255,7 @@ fbq('init','SEU_PIXEL_ID');fbq('track','PageView');
       </div>
       <div>
         <div class="valor">R$ 44<small>Pagamento pela Eduzz</small></div>
-        <a class="btn" href="https://wa.me/5547991188982?text=Oi%20Vanessa!%20Quero%20o%20ebook%20O%20Retorno%20para%20Si." target="_blank" rel="noopener" style="width:100%;text-align:center;margin-top:6px">Quero o ebook</a>
+        <a class="btn" href="https://chk.eduzz.com/D0R8GZQB9Y" target="_blank" rel="noopener" style="width:100%;text-align:center;margin-top:6px">Quero o ebook</a>
       </div>
     </div>
   </div>
@@ -497,7 +497,7 @@ document.addEventListener('click',function(e){
   var a=e.target.closest('a,button'); if(!a||typeof fbq!=='function')return;
   var t=(a.textContent||'').toLowerCase(), href=a.getAttribute('href')||'';
   if(href.indexOf('wa.me')>-1){fbq('track','Contact');}
-  if(t.indexOf('quero o ebook')>-1||href.indexOf('eduzz')>-1){fbq('track','InitiateCheckout');}
+  if(href.indexOf('eduzz')>-1){fbq('track','InitiateCheckout');}
   if(t.indexOf('abrir minha mandala')>-1||t.indexOf('ver a minha fase')>-1||t.indexOf('abrir a minha mensagem')>-1){fbq('trackCustom','AbriuMandala');}
 });
 </script>
